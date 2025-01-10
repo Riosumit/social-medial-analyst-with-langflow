@@ -11,8 +11,8 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
-LANGFLOW_ID = "b7fef225-7a29-4ccd-af0e-1ca07ec45eba"
-FLOW_ID = "de513744-c058-41e9-b5eb-9a633395edf1"
+LANGFLOW_ID = "e2a3dfca-7466-442e-ada7-fe7dd2446d3b"
+FLOW_ID = "882824c5-c6a3-45dd-a45c-2d8051e446fd"
 API_TOKEN = os.getenv("API_TOKEN")
 
 @app.route("/process", methods=["POST"])
